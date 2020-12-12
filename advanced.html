@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>
+            Advanced Search
+        </title>
+        <link rel="stylesheet" href="css/advanced.css">
+    </head>
+
+    <body>
+
+        <nav>
+            <div class="top">
+                <a href="index.html"><img src="images/google-logo.png" alt="google-logo"></a>
+                <ul>
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href="images.html">Images</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="adv-search">Advanced Search</div>
+
+        <main class="grid-container">
+            <section class="grid-item-1">
+                <div class="txt">
+                    Find pages with...
+                </div>
+                <form action="https://www.google.com/search">
+                    <div class="row">
+                        <label for="q">all these words</label>
+                        <input type="text" id="q" name="q"><br>
+                    </div>
+                    <div class="row">
+                        <label for="as_epq">this exact word or phrase</label>
+                        <input type="text" id="as_epq" name="as_epq"><br>
+                    </div>
+                    <div class="row">
+                        <label for="as_oq">any of these words</label>
+                        <input type="text" id="as_oq" name="as_oq"><br>
+                    </div>
+                    <div class="row">
+                        <label for="as_eq">none of these words</label>
+                        <input type="text" id="as_eq" name="as_eq"><br>
+                    </div>
+                    <input type="submit" value="Advanced Search">
+                </form>
+            </section>
+            <section class="grid-item-2">
+                <div style="margin-bottom: 0.5rem;">
+                    <span class="first-span">To do this in the search box.</span>
+                </div>
+                <div class="row-side">
+                    <span>Type the important words: tri-colour rat terrier</span>
+                </div>
+                <div class="row-side">
+                    <span>
+                        Put exact words in quotes: "rat terrier"
+                    </span>
+                </div>
+                <div class="row-side">
+                    <span>Type OR between all the words you want: miniature OR standard</span>
+                </div>
+                <div class="row-side">
+                    <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+                </div>
+            </section>
+        </main>
+
+    </body>
+
+</html>

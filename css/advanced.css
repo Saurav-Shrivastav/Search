@@ -1,0 +1,154 @@
+body
+{
+    margin: 0 !important;
+    font-family: arial,sans-serif;
+}
+
+.top
+{
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-bottom: 0;
+}
+
+img
+{
+    width: 92px;
+    height: 33px;
+    margin: 0.7rem;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    /* display: inline-block; */
+    vertical-align: top;
+    float: right;
+}
+
+@media screen and (max-width: 300px)
+{
+    ul
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 526px)
+{
+    label
+    {
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+    }
+    .row input[type=text]
+    {
+        width: 100%;
+    }
+}
+
+li
+{
+    display: inline;
+    padding: 0.5rem;
+}
+
+a
+{
+    text-decoration: underline;
+    color: black;
+}
+
+.adv-search
+{
+    color: #D93025;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 1.5rem;
+    font-size: larger;
+    font-weight: 400;
+    padding-left: 2.2rem;
+}
+
+main
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+@media screen and (max-width: 833px)
+{
+    main
+    {
+        grid-template-columns: auto;
+    }
+}
+
+.txt
+{
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.row
+{
+    padding: 0.8rem 0.8rem 0.8rem 0rem;
+}
+
+label
+{
+    font-size: small;
+    color: #222;
+    width: 35%;
+    display: inline-block;
+}
+
+input[type=text]
+{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    padding: 0.4rem 0.5rem;
+    width: 60%;
+}
+
+input[type=submit]
+{
+    float: right;
+    margin-right: 1.7vw;
+    background-color: #4d90fe;
+    color: #ffffff;
+    padding: 1vh 1vw;
+    appearance: push-button;
+    border-radius: 1px;
+    border: 1px solid #3079ed;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    font: Arial;
+    font-weight: bold;
+}
+
+@media screen  and (max-width: 1070px)
+{
+    .grid-item-2
+    {
+        display: none;
+    }
+}
+
+.first-span
+{
+    color: #777777;
+    font-weight: 600;
+    font-size: small;
+}
+
+.row-side
+{
+    padding: 1.2rem 1.2rem 1.2rem 0rem;
+    font-size: small;
+    color: #555555;
+}

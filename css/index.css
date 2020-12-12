@@ -1,0 +1,107 @@
+nav
+{
+    padding-right: 2rem;
+}
+
+.adv
+{
+    padding-right: 1rem;
+}
+
+.adv, .img
+{
+    font-size: large;
+    color: black;
+}
+
+.navbar
+{
+    width: 90%;
+    margin-top: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+section
+{
+    margin: auto;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width: 260px;
+    height: 126px;
+}
+
+form
+{
+    margin-top: 30px;
+}
+
+.forInp
+{
+    margin: auto;
+    width: 390px;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+
+input[type=text]
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    -webkit-appearance: none
+}
+
+input[type=text]:focus
+{
+    outline: none;
+}
+
+.grid-container
+{
+    display: inline-block;
+    width: 100%;
+    margin: 25px auto auto auto;
+    text-align: center;
+}
+
+.grid-item-1
+{
+    padding: 12px;
+    border: none;
+    font-size: large;
+}
+
+.grid-item-2
+{
+    padding: 12px;
+    border: none;
+    font-size: large;
+}
+
+.button-search
+{
+    display: block;
+    margin: 20px auto auto auto;
+    padding: 12px;
+    border: none;
+    font-size: large;
+}
+
+.logo-subtext
+{
+    display: block;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+}
